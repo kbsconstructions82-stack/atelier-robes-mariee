@@ -226,13 +226,6 @@ const Home: React.FC = () => {
           <p className="text-gray-600 text-lg">
             Réservez un rendez-vous ou envoyez-moi un message avec votre date de mariage et quelques idées de robe.
           </p>
-          <button
-            onClick={openContactForm}
-            className="w-full md:w-auto bg-[#25D366] hover:bg-[#128C7E] transition-all transform hover:scale-105 active:scale-95 text-white font-bold py-6 px-10 rounded-full shadow-2xl flex items-center justify-center gap-4 text-xl mx-auto"
-          >
-            <i className="fab fa-whatsapp text-3xl"></i>
-            <span>Je prends rendez-vous via WhatsApp</span>
-          </button>
         </div>
       </section>
     </div>
