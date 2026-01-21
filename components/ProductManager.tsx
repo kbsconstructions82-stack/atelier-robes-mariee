@@ -493,13 +493,13 @@ Notes : ${product.notes || 'Aucune'}
                         type="text"
                         value={currentProduct.color?.name}
                         onChange={e => setCurrentProduct({
-
-                        ...currentProduct,
-                        color: { ...currentProduct.color!, name: e.target.value }
-                      })}
-                      placeholder="Nom (ex: Blanc cassé)"
-                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-atelier-green outline-none"
-                    />
+                          ...currentProduct,
+                          color: { ...currentProduct.color!, name: e.target.value }
+                        })}
+                        placeholder="Nom (ex: Blanc cassé)"
+                        className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-atelier-green outline-none"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
