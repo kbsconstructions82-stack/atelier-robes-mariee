@@ -40,7 +40,7 @@ ${formData.message}
       {/* Header Image */}
       <div className="w-full h-[50vh] md:h-[60vh] relative">
         <img 
-          src="/images/gallery/E85A0708.jpg" 
+          src="/images/gallery/atelier4.jpg" 
           alt="Robe sur mesure" 
           className="w-full h-full object-cover"
         />
@@ -89,7 +89,7 @@ ${formData.message}
           </div>
           <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="/images/gallery/Essayage_robe_de_mariee_sur_mesure_a_Bordeaux_boutique_mariage_Christelle_Vasseur.webp" 
+              src="/images/gallery/atelier2.jpg" 
               alt="L'Atelier" 
               className="w-full h-full object-cover"
             />
@@ -163,27 +163,27 @@ ${formData.message}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">
-              <img src="/images/gallery/1325710b74cfeb9e91b399062b285fcc.jpg" alt="Bohème" className="w-full h-64 object-cover rounded-xl shadow-md"/>
+              <img src="/images/gallery/4.jpg" alt="Bohème" className="w-full h-64 object-cover rounded-xl shadow-md"/>
               <h3 className="text-xl font-bold text-gray-800">Robe de mariée bohème</h3>
               <p className="text-gray-600">Fluide et naturelle</p>
             </div>
             <div className="space-y-2">
-              <img src="/images/gallery/robe-de-mariee-princesse.webp" alt="Princesse" className="w-full h-64 object-cover rounded-xl shadow-md"/>
+              <img src="/images/gallery/14.webp" alt="Princesse" className="w-full h-64 object-cover rounded-xl shadow-md"/>
               <h3 className="text-xl font-bold text-gray-800">Robe de mariée princesse</h3>
               <p className="text-gray-600">Élégante et majestueuse</p>
             </div>
             <div className="space-y-2">
-              <img src="/images/gallery/robe-de-mariee-de-luxe-sirene-4_turbo-902487_1200x.webp" alt="Sirène" className="w-full h-64 object-cover rounded-xl shadow-md"/>
+              <img src="/images/gallery/15.webp" alt="Sirène" className="w-full h-64 object-cover rounded-xl shadow-md"/>
               <h3 className="text-xl font-bold text-gray-800">Robe de mariée sirène</h3>
               <p className="text-gray-600">Féminine et sculptante</p>
             </div>
             <div className="space-y-2">
-              <img src="/images/gallery/robe-mariage_bd59c7e1-9fd3-49f1-840f-d62f9d53ae08_640x.webp" alt="Minimaliste" className="w-full h-64 object-cover rounded-xl shadow-md"/>
+              <img src="/images/gallery/11.jpg" alt="Minimaliste" className="w-full h-64 object-cover rounded-xl shadow-md"/>
               <h3 className="text-xl font-bold text-gray-800">Robe de mariée minimaliste</h3>
               <p className="text-gray-600">Moderne et épurée</p>
             </div>
             <div className="space-y-2 md:col-span-2">
-              <img src="/images/gallery/robe-de-mariee-aurore-2x-1.webp" alt="Romantique" className="w-full h-64 object-cover rounded-xl shadow-md"/>
+              <img src="/images/gallery/13.jpg" alt="Romantique" className="w-full h-64 object-cover rounded-xl shadow-md"/>
               <h3 className="text-xl font-bold text-gray-800 text-center">Robe de mariée romantique ou vintage</h3>
             </div>
           </div>
@@ -250,12 +250,7 @@ ${formData.message}
             >
               Je prends rendez-vous
             </button>
-            <button 
-              onClick={() => setShowContactForm(true)}
-              className="bg-white border-2 border-atelier-green text-atelier-green px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-atelier-green hover:text-white transition-all shadow-lg"
-            >
-              Parler de mon projet
-            </button>
+
           </div>
         </section>
 

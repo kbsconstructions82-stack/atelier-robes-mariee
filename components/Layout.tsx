@@ -14,8 +14,8 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange }) => 
       {/* Header */}
       <header className="bg-white/70 backdrop-blur-md py-4 px-6 border-b border-white/40 sticky top-0 z-50 shadow-sm flex flex-row items-center justify-start gap-4">
         <img src="/images/final.png" alt="Logo" className="h-12 md:h-16 w-auto" />
-        <h1 className="font-serif text-lg md:text-xl font-semibold tracking-wide text-gray-900 text-left leading-tight">
-          Atelier Robes de Mariée Sur Mesure
+        <h1 className="font-serif text-base md:text-xl font-semibold tracking-wide text-gray-900 text-left leading-tight">
+          Atelier Robes Sur Mesure
         </h1>
       </header>
 

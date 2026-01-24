@@ -114,24 +114,24 @@ export const STYLE_CARDS: StyleCard[] = [
 ];
 
 export const GALLERY_IMAGES = [
-  '/images/gallery/1325710b74cfeb9e91b399062b285fcc.jpg',
-  '/images/gallery/6717ebbc31d3eb3e94512c5b_Robe de mariée Rochas (2).jpg',
-  '/images/gallery/E85A0708.jpg',
-  '/images/gallery/Image_1_67_.webp',
-  '/images/gallery/MOGRA-B1-scaled.webp',
-  '/images/gallery/Rendez-vous-essayage-robe-de-Mariee-a-Paris-Creatrice-de-robe-de-Mariage-sur-mesure-a-Paris-Boutique-robes-de-mariage-a-Paris-Robe-de-mariee-princesse-et-longue-traine-PASSIONEMENT-3.jpg',
+  '/images/gallery/14.webp',
+  '/images/gallery/11.jpg',
+  '/images/gallery/4.jpg',
+  '/images/gallery/5.jpg',
+  '/images/gallery/6.webp',
+  '/images/gallery/7.webp',
   '/images/gallery/Robe-de-Mariee-Atelier-Pronovias-1-300x300.webp',
   '/images/gallery/portrait-isabella-boutin.png',
-  '/images/gallery/pronovias-loire_b-copie.jpg',
-  '/images/gallery/robe-de-mariee-aurore-2x-1.webp',
-  '/images/gallery/robe-de-mariee-de-luxe-sirene-4_turbo-902487_1200x.webp',
-  '/images/gallery/robe-de-mariee-princesse.webp',
-  '/images/gallery/robe-mariage_bd59c7e1-9fd3-49f1-840f-d62f9d53ae08_640x.webp',
-  '/images/gallery/Essayage_robe_de_mariee_sur_mesure_a_Bordeaux_boutique_mariage_Christelle_Vasseur.webp',
-  '/images/gallery/Wedding-dress-shapes-silhouettes-1-1.jpg',
-  '/images/gallery/image00015.webp',
-  '/images/gallery/ml-mariage-3_3_237894-161243093383572.jpeg',
-  '/images/gallery/sur_mesure2.jpg'
+  '/images/gallery/8.jpg',
+  '/images/gallery/9.webp',
+  '/images/gallery/10.webp',
+  '/images/gallery/atelier1.jpeg',
+  '/images/gallery/12.webp',
+  '/images/gallery/15.webp',
+  '/images/gallery/atelier2.jpg',
+  '/images/gallery/atelier3.webp',
+  '/images/gallery/atelier4.jpg',
+  '/images/gallery/13.jpg'
 ];
 
 export const WHY_CHOOSE_US = [
