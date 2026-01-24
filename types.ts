@@ -3,7 +3,8 @@ export enum AppTab {
   HOME = 'home',
   CREATIONS = 'creations',
   PROCESS = 'process',
-  FAQ = 'faq'
+  FAQ = 'faq',
+  REALISATIONS = 'realisations'
 }
 
 export interface StyleCard {

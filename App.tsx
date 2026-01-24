@@ -9,6 +9,7 @@ import { ContactForm } from './components/ContactForm';
 
 // Lazy load the ProductManager to improve initial load time
 const ProductManager = React.lazy(() => import('./components/ProductManager').then(module => ({ default: module.ProductManager })));
+const Realisations = React.lazy(() => import('./components/Realisations'));
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<AppTab>(AppTab.HOME);
@@ -32,6 +33,16 @@ const App: React.FC = () => {
             </div>
           }>
             <ProductManager />
+          </Suspense>
+        );
+      case AppTab.REALISATIONS:
+        return (
+          <Suspense fallback={
+            <div className="flex justify-center items-center min-h-[50vh]">
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-atelier-gold"></div>
+            </div>
+          }>
+            <Realisations />
           </Suspense>
         );
       case AppTab.PROCESS:

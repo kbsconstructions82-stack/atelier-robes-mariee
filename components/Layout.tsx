@@ -12,9 +12,10 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange }) => 
   return (
     <div className="min-h-screen bg-atelier-cream text-gray-800 flex flex-col">
       {/* Header */}
-      <header className="bg-white/70 backdrop-blur-md py-4 px-6 border-b border-white/40 sticky top-0 z-50 shadow-sm flex items-center justify-center">
-        <h1 className="font-serif text-lg md:text-xl font-semibold tracking-wide text-gray-900">
-          Atelier Robes de Mariée
+      <header className="bg-white/70 backdrop-blur-md py-4 px-6 border-b border-white/40 sticky top-0 z-50 shadow-sm flex flex-row items-center justify-start gap-4">
+        <img src="/images/final.png" alt="Logo" className="h-12 md:h-16 w-auto" />
+        <h1 className="font-serif text-lg md:text-xl font-semibold tracking-wide text-gray-900 text-left leading-tight">
+          Atelier Robes de Mariée Sur Mesure
         </h1>
       </header>
 
@@ -46,6 +47,17 @@ const Layout: React.FC<LayoutProps> = ({ children, activeTab, onTabChange }) => 
           >
             <i className="fas fa-pencil-ruler text-lg"></i>
             <span className="text-xs font-bold uppercase tracking-widest hidden md:inline">Atelier</span>
+          </button>
+
+          <button
+            onClick={() => onTabChange(AppTab.REALISATIONS)}
+            className={`flex items-center justify-center gap-2 px-5 py-3 rounded-full transition-all duration-300 ${activeTab === AppTab.REALISATIONS
+              ? 'bg-atelier-gold text-white shadow-lg'
+              : 'text-gray-500 hover:bg-gray-100/50 hover:text-gray-900'
+              }`}
+          >
+            <i className="fas fa-images text-lg"></i>
+            <span className="text-xs font-bold uppercase tracking-widest hidden md:inline">Réalisations</span>
           </button>
 
           <button
